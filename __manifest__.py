@@ -5,7 +5,7 @@
     'summary': "Product-Purchase-Sales Addon",
 
     'description': """
-    Product, Purchase, and Sales custom addon module for Cat Cattery
+    Customized Product's Attribute, Purchase's Order, and Sales's Order models for Cat Cattery
     """,
 
     'author': "Phamorphosis",
