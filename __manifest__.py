@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "gpu_product_sales",
+    'name': "product_purchase_sale",
 
-    'summary': "GPU Product Sales",
+    'summary': "Product-Purchase-Sales Addon",
 
     'description': """
-    Product and Sales custom addon for Graphics Processing Unit (GPU) Manufacturers
+    Product, Purchase, and Sales custom addon module for Cat Cattery
     """,
 
     'author': "Phamorphosis",
@@ -18,7 +18,7 @@
     'version': '0.1',
 
     # any module necessary for this one to work correctly
-    'depends': ['base', 'product', 'sale'],
+    'depends': ['base', 'purchase', 'product', 'sale'],
 
     # always loaded
     'data': [
