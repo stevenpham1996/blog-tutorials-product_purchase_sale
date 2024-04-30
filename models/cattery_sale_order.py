@@ -15,11 +15,10 @@ class CatterySaleOrder(models.Model):
    ######################### Onchange Methods #########################
    @api.onchange('subscription')
    def _onchange_subscription(self):
-       for record in self:
-           if record.subscription:
-               record.interval = 'weekly'
-               record.frequency = 4
-           else:
-               record.interval = False
-               record.frequency = 0
+        if self.subscription:
+            self.interval = 'weekly'
+            self.frequency = 4
+        else:
+            self.interval = False
+            self.frequency = 0
             

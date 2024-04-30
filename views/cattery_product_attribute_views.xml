@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<odoo>
+
+    <record id="inherited_product_attribute_view_from" model="ir.ui.view">
+        <field name="name">cattery.product.attribute.form</field>
+        <field name="model">product.attribute</field>
+        <field name="inherit_id" ref="product.product_attribute_view_form"/>
+        <field name="arch" type="xml">
+           <xpath expr="//field[@name='name']" position="after">
+                <field name="description" />
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

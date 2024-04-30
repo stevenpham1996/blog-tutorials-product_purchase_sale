@@ -23,12 +23,10 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'views/cattery_product_attribute_views.xml',
+        'views/cattery_sale_order_views.xml',
+        'views/cattery_purchase_order_views.xml',
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    'license': 'LGPL-3',
 }
 
